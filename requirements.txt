@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+psycopg2-binary   # PostgreSQL driver (skip if only using SQLite for now)
+sqlalchemy
+pydantic
+python-dotenv
+pytest
+httpx             # for testing FastAPI endpoints
