@@ -205,3 +205,22 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project-specific ignores
+
+# Environment files (API keys, DB URLs, etc.)
+*.env
+
+# Local SQLite DB (if you use SQLite for quick development)
+*.sqlite3
+
+# VSCode / PyCharm project settings
+.vscode/
+.idea/
+
+# Docker files (optional, if you add Docker later)
+*.dockerfile
+*.dockerignore
+
+# Logs
+*.log
